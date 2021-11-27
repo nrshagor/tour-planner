@@ -1,0 +1,72 @@
+.button{
+    padding: 0px 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .6s ease;
+    margin: 0 22px;
+}
+.button-color{
+    background: red;
+    border-radius: 50px;
+    color:white;
+}
+.button-color:hover{
+    background:transparent;
+    border-color: white;
+    color: white;
+}
+.navlist span{
+    padding: 5px 2px;
+    margin: 6px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 255, 76);
+}
+
+.navtext{
+    text-transform: uppercase;
+    color: rgb(255, 246, 246) !important;
+    font-size: 16px;
+    font-weight: 600 ;
+}
+.navtext::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+.navtext:hover::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ff3e3e;
+    display: block;
+    margin: auto;
+  }
+.navtitel h1{
+    text-transform: uppercase;
+    color: rgb(255, 246, 246) !important;
+    font-size: 20px;
+    font-weight: 600 ;
+    transition: all 1s;
+}
+.navtitel span{
+color: rgb(255, 47, 20);
+transition: all 1s;
+}
+.navtitel h1:hover{
+    text-transform: uppercase;
+    color: rgb(255, 13, 13) !important;
+    font-size: 20px;
+    font-weight: 600 ;
+}
+.navtitel span:hover{
+color: rgb(255, 255, 255);
+}

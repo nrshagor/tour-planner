@@ -1,0 +1,87 @@
+
+.img-about{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.733), rgba(0, 0, 0, 0.712)), url(../../Images/Sliders/pic02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h2{
+color: rgb(250, 250, 250);
+padding: 120px;
+}
+.title{
+    padding: 150px 150px 10px;
+    margin: 0 60px;
+}
+.title h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(10, 10, 10);
+}
+.title p{
+    font-size: 16px;
+    padding:  20px 150px;
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+.title span{
+    color: rgb(255, 17, 17);
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  .about-us h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  
+  }
+  
+  .about-col{
+    float: right;
+    flex-basis: 48%;
+    padding: 30px 2px;
+  
+  }
+  .about-col-2{
+    float: right;
+    flex-basis: 48%;
+    padding: 30px 10px 20px;
+  }
+  .about-col-2 img{
+    width: 100%;
+  }
+  .about-col-2 h1{
+    padding-top: 0;
+  }
+  .about-col-2 p{
+    padding: 10px 0 20px;
+  }
+  .about-col img{
+    width: 100%;
+  }
+  .about-col h1{
+    padding-top: 0;
+  }
+  .about-col p{
+    padding: 15px 0 25px;
+  }
+  @media only screen and (max-width:769px){
+      .row{
+          display: flex;
+          flex-direction: column;
+      }
+      .title{
+        padding: 6px;
+        margin: 0 6px;
+    }
+    .title p{
+        font-size: 16px;
+        padding:  2px 5px;
+        color: rgb(46, 46, 46);
+    }
+}
